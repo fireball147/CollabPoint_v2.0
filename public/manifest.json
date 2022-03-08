@@ -8,14 +8,14 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "/public/images/CollabPoint-logo-large.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "150x98"
     },
     {
-      "src": "logo512.png",
+      "src": "/public/images/CollabPoint-logo-medium.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "100x102"
     }
   ],
   "start_url": ".",

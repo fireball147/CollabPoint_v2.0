@@ -1,0 +1,358 @@
+/* Home Page*/
+
+body {
+  font-size: 16px;
+  background-color: #61122f;
+  font-family: "Oxygen", sans-serif;
+}
+.container {
+  width: auto;
+}
+
+/* Header Begin */
+#header-nav {
+  background-color: #ffffff;
+  border-radius: 0;
+  border: 0;
+  margin-bottom: 5px;
+}
+
+#header-div {
+  margin: 0px;
+  padding: 5px;
+  width: 100%;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 {
+  /* platform name */
+  font-family: "Lora", serif;
+  color: #012169;
+  font-size: 1.5em;
+  font-weight: bold;
+  /* text-shadow: 1px 1px 1px #222; */
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 0.75;
+}
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p {
+  /* tag line */
+  color: #012169;
+  text-transform: capitalize;
+  font-size: 0.7em;
+  margin-top: 15px;
+}
+
+#collapsable-nav {
+  clear: left;
+  float: left;
+  padding: 0px;
+  width: 100%;
+}
+
+#collapsable-nav a {
+  box-sizing: border-box;
+  font-size: 0.9em;
+  color: #012169;
+  text-align: center;
+  margin: 3px;
+  padding: 5px 15px 5px 15px;
+}
+
+#collapsable-nav li:nth-child(1) {
+  width: 129px;
+  height: 40px !important;
+}
+#collapsable-nav li:nth-child(2) {
+  width: 152px;
+  height: 40px !important;
+}
+#collapsable-nav li:nth-child(3) {
+  width: 126px;
+  height: 40px !important;
+}
+#collapsable-nav li:nth-child(4) {
+  width: 114px;
+  height: 40px !important;
+}
+#collapsable-nav li:nth-child(5) {
+  width: 118px;
+  height: 40px !important;
+}
+#collapsable-nav li:nth-child(6) {
+  width: 119px;
+  height: 40px !important;
+}
+
+#collapsable-nav a:active,
+#collapsable-nav a:focus,
+#collapsable-nav a:hover {
+  text-decoration-line: underline;
+  font-weight: 900;
+  border: 1px solid #012169;
+  border-radius: 25px;
+}
+
+#collapsable-nav .active {
+  background-color: #012169;
+  color: #fff;
+  border-radius: 25px;
+  box-shadow: 0px 2px 10px 2px #888;
+}
+
+/* End Header */
+
+/* Main Frame */
+#main-frame {
+  width: 100vw;
+}
+
+/* End Main Frame */
+
+/* Begin Footer */
+
+.panel-footer {
+  margin-top: 5px;
+  height: 40px;
+}
+
+#helpdesk {
+  float: right;
+  font-size: 0.9em;
+}
+
+#helpdesk a {
+  color: #012169;
+}
+
+/* End Footer */
+/* End Home Page */
+
+/* New Request Page */
+.container.content-page {
+  background-color: #fff;
+  display: flex;
+  flex-flow: column;
+  min-height: 76vh;
+  font-size: 14px;
+}
+
+.content-page > p {
+  font-weight: 900;
+  padding: 10px 0 0px 3px;
+  font-size: 1.3em;
+}
+
+.content-page form {
+  padding-bottom: 10px;
+  height: 100%;
+}
+.content-page .form-group {
+  background-color: #f0f4ff;
+  padding: 5px 5px 5px 5px;
+  margin: 0px;
+  border: #fff solid 2px;
+}
+
+.form-group label {
+  padding-top: 5px;
+}
+
+.content-page .field {
+  box-sizing: inherit;
+  float: right;
+  width: 50%;
+}
+
+.full-row {
+  width: 100%;
+}
+
+.content-page .full-row > textarea {
+  width: 100%;
+  height: 150px;
+  margin-top: 5px;
+  resize: none;
+}
+
+.content-page .actionButton {
+  margin-top: 25px;
+  background-color: #fff;
+}
+
+.content-page .actionButton > button {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#expandedTextModal .modal-dialog {
+  width: 70vw;
+}
+
+#expandedTextModal textarea {
+  height: 55vh;
+}
+
+/* My Request Pages */
+.table tbody tr:nth-child(even),
+.table tbody tr:nth-child(even) a {
+  background-color: #c3d3f7;
+  color: #000;
+}
+
+/* Request Details */
+
+.content-page #request-options {
+  padding: 5px;
+  border: 1px solid #012169;
+}
+
+#collapsable-options .navbar-nav > .visible-lg {
+  color: #23527c;
+}
+
+#collapsable-options .navbar-nav > li > a {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#collapsable-options .navbar-nav > li > a:hover,
+#collapsable-options .navbar-nav > li > a:focus {
+  background: none;
+  text-decoration: underline;
+}
+
+/* Recurrence Setting Page */
+.radio-btn label {
+  margin-left: 10px;
+}
+
+@media (min-width: 1200px) {
+  #logo-img {
+    background: url("../images/CollabPoint-logo-large.png") no-repeat;
+    width: 150px;
+    height: 100px;
+    margin: 10px 15px 10px 15px;
+  }
+
+  /* Recurrence Setting Page */
+  .table-row {
+    display: table-row;
+  }
+  .radio-btn {
+    padding: 10px 10px 10px 0;
+    display: table-cell;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 970px) and (max-width: 1199px) {
+  /* Header */
+  #logo-img {
+    background: url("../images/CollabPoint-logo-medium.png") no-repeat;
+    width: 80px;
+    height: 80px;
+    margin: 5px 10px 5px 10px;
+  }
+
+  #collapsable-nav {
+    margin-top: 15px;
+  }
+  /* End Header */
+
+  /* Begin Footer */
+
+  /* Main Frame */
+}
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 969px) {
+  /* Begin Header */
+  #logo-img {
+    background: url("../images/CollabPoint-logo-small.png") no-repeat;
+    width: 50px;
+    height: 50px;
+    margin: 2px 5px 2px 5px;
+  }
+  .navbar-brand {
+    padding-top: 15px;
+  }
+  .navbar-brand h1 {
+    /* platform name */
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 0.75;
+  }
+  .navbar-brand p {
+    /* tag line */
+    font-size: 0.6em;
+    margin-top: 5px;
+  }
+
+  #collapsable-nav {
+    margin-top: 15px;
+  }
+  /* End Header */
+
+  /* Main Frame */
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Begin Header */
+  .container > .navbar-header {
+    margin: 0px;
+  }
+
+  #logo-img {
+    background: url("../images/CollabPoint-logo-small.png") no-repeat;
+    width: 50px;
+    height: 50px;
+    margin: 2px 2px 2px 5px;
+  }
+
+  .navbar-brand {
+    padding-top: 10px;
+    padding-left: 10px;
+    height: 90px;
+  }
+  .navbar-brand h1 {
+    font-size: 5.5vw;
+  }
+
+  .navbar-brand p {
+    font-size: 3vw;
+    margin-top: 10px;
+  }
+
+  .navbar-nav {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  #collapsable-nav {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  #nav-list ul {
+    float: right;
+    clear: left;
+  }
+
+  #nav-list li {
+    width: 90% !important;
+    margin: auto;
+  }
+
+  /* End Header */
+
+  /* Main Frame */
+}
