@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/CollabPoint_v2.0/static/css/main.43c86f1c.css",
+    "main.js": "/CollabPoint_v2.0/static/js/main.5017a099.js",
+    "index.html": "/CollabPoint_v2.0/index.html",
+    "main.43c86f1c.css.map": "/CollabPoint_v2.0/static/css/main.43c86f1c.css.map",
+    "main.5017a099.js.map": "/CollabPoint_v2.0/static/js/main.5017a099.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.43c86f1c.css",
+    "static/js/main.5017a099.js"
+  ]
+}
